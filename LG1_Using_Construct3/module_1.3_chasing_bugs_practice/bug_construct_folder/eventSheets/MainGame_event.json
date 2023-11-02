@@ -51,7 +51,6 @@
 					"id": "set-visible",
 					"objectClass": "GameOverText",
 					"sid": 769154193216466,
-					"disabled": true,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -100,19 +99,6 @@
 					"sid": 781622005956403,
 					"parameters": {
 						"text": "\"Score: \" & Score & newline & \"Use arrow keys to move and click to shoot!\""
-					}
-				},
-				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 582157446851135,
-					"parameters": {
-						"object-to-create": "GreenMonster",
-						"layer": "\"Main\"",
-						"x": "0",
-						"y": "random(1024)",
-						"create-hierarchy": false,
-						"template-name": "\"\""
 					}
 				}
 			],
@@ -182,6 +168,19 @@
 					"behaviorType": "Movement",
 					"parameters": {
 						"speed": "MonsterSpeed"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 262180211323131,
+					"parameters": {
+						"object-to-create": "GreenMonster",
+						"layer": "\"Main\"",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
 					}
 				}
 			],
@@ -296,8 +295,8 @@
 				},
 				{
 					"id": "set-angle",
-					"objectClass": "Explosion",
-					"sid": 147509339509199,
+					"objectClass": "GreenMonster",
+					"sid": 695255834135149,
 					"parameters": {
 						"angle": "random(360)"
 					}
@@ -394,13 +393,9 @@
 					}
 				},
 				{
-					"id": "set-enabled",
+					"id": "destroy",
 					"objectClass": "Player",
-					"sid": 647403389382168,
-					"behaviorType": "8Direction",
-					"parameters": {
-						"state": "disabled"
-					}
+					"sid": 768963461359803
 				}
 			],
 			"sid": 627827915954067

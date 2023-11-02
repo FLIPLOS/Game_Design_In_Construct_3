@@ -17,14 +17,20 @@
 						"image-offset-y": 0,
 						"image-scale-x": 1,
 						"image-scale-y": 1,
-						"image-angle": 0
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
 					},
 					"uid": 0,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 0,
+						"x": -2,
+						"y": 2,
 						"width": 1280,
 						"height": 1024,
 						"originX": 0,
@@ -159,14 +165,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 722,
-						"y": 672,
+						"x": 741,
+						"y": 767,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -205,14 +208,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 603,
-						"y": 787,
+						"x": 622,
+						"y": 882,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -251,14 +251,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 499,
-						"y": 459,
+						"x": 106,
+						"y": 909,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -297,14 +294,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 1050,
-						"y": 250,
+						"x": 1069,
+						"y": 345,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -343,14 +337,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 1137,
-						"y": 572,
+						"x": 1156,
+						"y": 667,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -389,14 +380,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 1105,
-						"y": 836,
+						"x": 1124,
+						"y": 931,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -435,14 +423,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 854,
-						"y": 872,
+						"x": 873,
+						"y": 967,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -481,14 +466,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 961,
-						"y": 748,
+						"x": 980,
+						"y": 843,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -527,14 +509,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 467,
-						"y": 921,
+						"x": 486,
+						"y": 1016,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -573,14 +552,11 @@
 								"step": false,
 								"enabled": true
 							}
-						},
-						"DestroyOutsideLayout": {
-							"properties": {}
 						}
 					},
 					"world": {
-						"x": 162,
-						"y": 906,
+						"x": 181,
+						"y": 1001,
 						"width": 142,
 						"height": 102,
 						"originX": 0.5,
@@ -689,8 +665,10 @@
 						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
 						"wrapping": "word",
+						"icon-set": -1,
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 14,
 					"instanceVariables": {},
@@ -731,8 +709,10 @@
 						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
+						"icon-set": -1,
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 15,
 					"instanceVariables": {},
